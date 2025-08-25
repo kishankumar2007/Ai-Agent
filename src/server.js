@@ -6,7 +6,7 @@ const port = 3000
 app.use(express.json())
 
 app.use(cors({
-    origin: 'https://dev-helper-agent.vercel.app/',
+    origin: 'https://dev-helper-agent.vercel.app',
     credentials: true
 }))
 
