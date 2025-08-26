@@ -33,7 +33,7 @@ export async function generateResponse(userResponse) {
     while (true) {
         const res = await groq.chat.completions.create({
             messages: messages,
-            model: "openai/gpt-oss-120b",
+            model: "llama-3.3-70b-versatile",
             temperature: 0,
             max_completion_tokens: 1000,
             frequency_penalty: 0.2,
